@@ -1,0 +1,19 @@
+- Placeable towers
+- WaveSpawner
+- UI (not finished)
+-----------------------
+- UI text values + scripts
+-----------------------
+- Change cursor back to normal when tower is builded
+-----------------------
+- UI score value
+- Towers can shoot
+-----------------------
+- Tower targeting improved
+- No crash on wave complete
+----------------------------
+- Main menu scene added
+	- Play works
+	- Tutorial does NOT
+	- Exit does NOT
+- Music on game start
