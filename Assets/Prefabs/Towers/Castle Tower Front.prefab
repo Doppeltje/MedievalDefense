@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa7d886aaed89d8448906af86c75fd47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Ammo: {fileID: 1365726937919632, guid: d5f4dd768d6ed534a915eed983703888, type: 2}
+  Ammo: {fileID: 1678766440234514, guid: df13f24be5d6dc9428926cf86a234865, type: 2}
   tower: {fileID: 1853038370060782}
 --- !u!114 &114445503333857968
 MonoBehaviour:
@@ -142,9 +142,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   shootPos: {fileID: 1853038370060782}
+  target: {fileID: 0}
+  distanceToClosestEnemy: Infinity
   targetX: 0
   targetY: 0
   rotation: {x: 0, y: 0, z: 0, w: 0}
+  disA: 0
+  towerRange: 6
+  enemies: []
   gotTarget: 0
 --- !u!114 &114990133642364136
 MonoBehaviour:
@@ -162,7 +167,7 @@ MonoBehaviour:
   whatToHit:
     serializedVersion: 2
     m_Bits: 256
-  ArrowTrailPrefab: {fileID: 4224582418843780, guid: d5f4dd768d6ed534a915eed983703888,
+  ArrowTrailPrefab: {fileID: 4591734556874698, guid: df13f24be5d6dc9428926cf86a234865,
     type: 2}
 --- !u!212 &212166944915539344
 SpriteRenderer:

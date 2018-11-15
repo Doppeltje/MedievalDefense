@@ -24,7 +24,7 @@ public class MoveArrow : MonoBehaviour
     void Update ()
     {
         transform.Translate(Vector3.right * Time.deltaTime * moveSpeed);
-        Destroy(gameObject, 2);
+        Destroy(gameObject, 1);
 	}
 
     private void FixedUpdate()

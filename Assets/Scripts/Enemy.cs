@@ -96,5 +96,16 @@ public class Enemy : MonoBehaviour
             health -= damage;
             curHealth = health;
         }
+
+        if (col.gameObject.name == "Fireball(Clone)")
+        {
+            health -= damage*3;
+            curHealth = health;
+        }
+        if (col.gameObject.name == "Rock(Clone)")
+        {
+            health -= damage * 2;
+            curHealth = health;
+        }
     }
 }

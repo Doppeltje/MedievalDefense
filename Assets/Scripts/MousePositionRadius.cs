@@ -13,8 +13,9 @@ public class MousePositionRadius : MonoBehaviour
     float placeY;
       
     private int towerIndex;
-
+    
     public bool canBuildTower = false;
+    public bool ocupied = false;
 
     // Use this for initialization
     void Start()
@@ -35,7 +36,7 @@ public class MousePositionRadius : MonoBehaviour
 
     public void OnMouseDown()
     {
-        if (bg.tag == "BuildGround")
+        if (bg.tag == "BuildGround" && !ocupied)
         {
             canBuildTower = true;
         }
@@ -49,6 +50,7 @@ public class MousePositionRadius : MonoBehaviour
         {
             PlaceTower();
             //Debug.Log("canBuildTower = " + canBuildTower);
+            ocupied = true;
             canBuildTower = false;
             pT.uiButtonActive = false;
             //Debug.Log("mouseposradius pT.uibuttonactive = " + pT.uiButtonActive);

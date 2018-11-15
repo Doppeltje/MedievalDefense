@@ -30,8 +30,20 @@ public class Color_Changer : MonoBehaviour
     {
         if (collision.gameObject.name == "arrow(Clone)")
         {
-            blueFade = blueFade - .2f;
-            greenFade = greenFade - .2f;
+            blueFade = blueFade - .1f;
+            greenFade = greenFade - .1f;
+        }
+
+        if (collision.gameObject.name == "Fireball(Clone)")
+        {
+            blueFade = blueFade - .3f;
+            greenFade = greenFade - .3f;
+        }
+
+        if (collision.gameObject.name == "Rock(Clone)")
+        {
+            blueFade = blueFade - .3f;
+            greenFade = greenFade - .3f;
         }
     }
 }

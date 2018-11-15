@@ -526,7 +526,7 @@ MonoBehaviour:
   - name: Enemy_01
     enemy: {fileID: 4408435860198946, guid: fd4401ef09a69de4ab67883ad26e93d0, type: 2}
     count: 7
-    rate: 1
+    rate: 0.7
   spawnPoints:
   - {fileID: 274518021}
   timeBetweenWaves: 2
@@ -1333,6 +1333,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 86fb2d8733b45cb4bbb892c93a8faa88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lifeValue: 20
 --- !u!114 &844071680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1706,6 +1707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canBuildTower: 0
+  ocupied: 0
 --- !u!114 &1022184061
 MonoBehaviour:
   m_ObjectHideFlags: 0
